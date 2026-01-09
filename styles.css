@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 .kaushan-script-regular {
@@ -120,7 +125,6 @@ blockquote::before {
   left: 15px;
   color: hsl(50, 42%, 50%);
   z-index: -1;
-
 }
 
 footer#footer {
