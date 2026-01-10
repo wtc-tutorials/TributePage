@@ -127,12 +127,13 @@ blockquote::before {
   z-index: -1;
 }
 
-footer#footer {
+footer#page-footer {
   min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(hsl(50, 12%, 60%), hsl(50, 12%, 40%));
+  font-size: 1.5em;
 }
 
 #tribute-link {
