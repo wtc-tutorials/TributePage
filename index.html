@@ -83,7 +83,7 @@
     <footer id="page-footer">
       <p>Created with respect and admiration for Malcolm X.</p>
       <p>
-        © 2026 Tribute Page by
+        © <span id="year"></span> Tribute Page by
         <a
           href="https://yourwebsite.com"
           target="_blank"
@@ -91,5 +91,10 @@
         >
       </p>
     </footer>
+    <script>
+      const yearSpan = document.getElementById('year')
+      const year = new Date().getFullYear()
+      yearSpan.textContent = year.toString()
+    </script>
   </body>
 </html>
