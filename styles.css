@@ -62,16 +62,15 @@ img#image {
 #tribute-info {
   width: 80%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 4rem auto;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 #tribute-info h3 {
   font-size: 1.5em;
-  margin: 4rem 0;
 }
 
 #tribute-info ul {
