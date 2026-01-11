@@ -20,7 +20,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.8rem;
 }
 
 body {
@@ -75,8 +75,6 @@ img#image {
 
 #tribute-info ul {
   list-style: none;
-  line-height: 1.8rem;
-  
 }
 
 #tribute-info ul > li {
@@ -116,6 +114,8 @@ blockquote {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: relative;
   font-size: 1.3em;
+  line-height: 2.2rem;
+  margin-block: 2rem;
 }
 
 blockquote::before {
