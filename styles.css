@@ -117,11 +117,16 @@ blockquote {
   line-height: 2.2rem;
   margin-block: 2rem;
   box-shadow: 5px 5px 25px hsla(50, 42%, 30%, 0.7);
+  z-index: 0;
+}
+
+blockquote p {
+  z-index: 9999;
 }
 
 blockquote::before {
   content: '‟';
-  font-size: 12em;
+  font-size: 6em;
   position: absolute;
   top: 0.4em;
   left: 0.1em;
